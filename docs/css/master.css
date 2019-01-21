@@ -4,7 +4,7 @@
 
 
 body {
-  background: #951e1e;
+  /* background: #951e1e; */
 }
 
 .icon-logo{
@@ -13,4 +13,9 @@ body {
 
 .type-logo{
   width: 200px;
+}
+
+img {
+  display: inline-block;
+  background: red;
 }

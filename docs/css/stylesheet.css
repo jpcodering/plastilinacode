@@ -1,5 +1,6 @@
 :root{
-	--color1:#;
+	--color1:#4357ad;
+	--color1hover: #f2f2f2;
 }
 
 
@@ -17,5 +18,67 @@ body {
 
 img {
   display: inline-block;
-  /* background: red; */
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: var(--color1);
+}
+
+.menu {
+  display: flex;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menu .logo {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.menu .logo h1 {
+  vertical-align: top;
+  font-size: 22px;
+  line-height: 45px;
+}
+
+.menu .btn-menu {
+  display: none;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.menu .logo:hover {
+  background:var(--color1hover);
+}
+
+.menu .enlaces li {
+  display: inline-block;
+  text-align: right;
+}
+
+.logo a,
+.menu .enlaces li a {
+  display: inline-block;
+  padding: 1em;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.menu .enlaces i {
+  margin-right: 5px;
+}
+
+.menu .enlaces a:hover {
+  color: #4357ad;
+  background:var(--color1hover);
 }

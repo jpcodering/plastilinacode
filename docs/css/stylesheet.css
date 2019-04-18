@@ -3,6 +3,11 @@
 	--color1hover: #f2f2f2;
 }
 
+*{
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+}
 
 body {
   /* background: #951e1e; */
@@ -22,9 +27,11 @@ img {
 
 header {
   position: fixed;
+  padding:10px 0 20px 0;
   top: 0;
   width: 100%;
   background: var(--color1);
+  box-shadow: 0 0 10px #000000;
 }
 
 .menu {
@@ -79,6 +86,14 @@ header {
 }
 
 .menu .enlaces a:hover {
-  color: #4357ad;
+  color: var(--color1);
   background:var(--color1hover);
+}
+
+
+.slider{
+  margin-top: 140px;
+  width: 100%;
+  height: 400px;
+  background: var(--color1hover);
 }

@@ -1,22 +1,21 @@
-:root{
-	--color1:#4357ad;
-	--color1hover: #f2f2f2;
+:root {
+  --color1: #4357ad;
+  --color1hover: #f2f2f2;
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
   -moz-box-sizing: border-box;
 }
 
-body {
-}
+body {}
 
-.icon-logo{
+.icon-logo {
   width: 100px;
 }
 
-.type-logo{
+.type-logo {
   width: 200px;
 }
 
@@ -26,7 +25,7 @@ img {
 
 header {
   position: fixed;
-  padding:10px 0 20px 0;
+  padding: 10px 0 20px 0;
   top: 0;
   width: 100%;
   background: var(--color1);
@@ -62,7 +61,7 @@ header {
 }
 
 .menu .logo:hover {
-  background:var(--color1hover);
+  background: var(--color1hover);
 }
 
 .menu .enlaces li {
@@ -86,13 +85,61 @@ header {
 
 .menu .enlaces a:hover {
   color: var(--color1);
-  background:var(--color1hover);
+  background: var(--color1hover);
 }
 
 
-.slider{
+
+
+
+
+
+
+
+
+
+.slider {
   margin-top: 140px;
   width: 100%;
   height: 400px;
   background: var(--color1hover);
+}
+
+
+
+
+
+
+
+
+
+
+
+.gallery {
+  display: flex;
+}
+
+.item-gallery {
+  width: 30%;
+  height: 100px;
+  margin: 6px;
+  background-color: #ccc;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+}
+
+
+
+
+
+
+
+footer{
+  position:fixed;
+  display:block;
+  bottom: 0;
+  width: 100%;
+  height: 300px;
+  background: #222;
 }

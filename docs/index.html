@@ -8,48 +8,49 @@
   <meta name="googlebot" content="index,follow,snippet">
   <!-- autor -->
   <title>PlastilinaCode</title>
-  <meta name="keywords" content=" ">
+  <meta name="keywords" content="">
   <link rel="icon" href="img/favicon/icon.png">
-  <link rel="shortcut icon" href="img/favicon/icon.png">
-  <link rel="apple-touch-icon" href="img/favicon/icon.png">
+  <link rel="shortcut icon" href="img/favicon/icon-logo.svg">
+  <link rel="apple-touch-icon" href="img/favicon/icon-logo.svg">
   <meta name="author" content="Juan Pablo Arias">
   <meta name="description" content="code for share">
   <!-- viewport -->
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
-  <link rel="alternate" type="application/atom+xml" title="Feed per un mio sito" href="/feed/" />
+  <link rel="alternate" type="application/atom+xml" title="Feed per un mio sito" href="feed/" />
   <style>
     .stylename {}
   </style>
-<script src="js/jquery.min.js" charset="utf-8"></script>
-<script src="js/headroom.min.js" charset="utf-8"></script>
-
+  <script src="js/jquery.min.js" charset="utf-8"></script>
+  <script src="js/headroom.min.js" charset="utf-8"></script>
   <script src="js/main.js"></script>
+  
 </head>
 
 <body>
-  <header>
+
+<!-- HEADER DEV -->
+  <div class="header-dev"></div>
+<!-- END HEADER DEV -->
+
+<!-- HEADER / MENU -->
+  <header> <!-- el id header sirva para HEADROOM.JS -->
     <nav class="menu">
-
-    <div class="logo">
-      <img class="icon-logo" src="img/icon-logo.svg" alt="">
-      <img class="type-logo" src="img/type-logo.svg" alt="">
-    </div>
-
-      <ul class="enlaces">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Cursos</a></li>
-        <li><a href="#">Contact</a></li> <!-- contact.html -->
-        <li><a href="#">Patreon</a></li> <!-- www -->
-      </ul>
-
+      <a href="index.html" class="menu-item">
+        <img class="icon-logo" src="img/icon-logo.svg" alt="logo plastilinacode">
+        <img class="type-logo" src="img/type-logo.svg" alt="plastilinacode">
+      </a>
+      <div id="" class="menu-item">
+        <ul class="enlaces">
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="#">Cursos</a></li>
+          <li><a href="#">Contact</a></li> <!-- contact.html -->
+          <li><a href="#">Patreon</a></li> <!-- www -->
+        </ul>
+      </div>
     </nav>
   </header>
-
-
-
-
-
+<!-- END HEADER / MENU -->
 
 <!-- SLIDER -->
 <div align="Center" class="slider">
@@ -57,19 +58,28 @@
   <div class=""><img src="url" alt="text"></div>
   <div class=""><img src="url" alt="text"></div>
 </div>
+<!-- END SLIDER -->
 
-
-
-
-
-<div class="gallery">
-<div class="item-gallery" style="background-image: url(learn/tips/browser.jpg)"></div>
-<div class="item-gallery">2</div>
-<div class="item-gallery">3</div>
-<div class="item-gallery">4</div>
-<div class="item-gallery">5</div>
-
+<!-- GALLERY -->
+<div class="gallery"> <fieldset><legend> En Evidencia </legend>
+  <div class="gallery-wrapper">
+    <div class="item-gallery" style="background-image: url('learn/tips/browser.jpg')"></div>
+    <div class="item-gallery">2</div>
+    <div class="item-gallery">3</div>
+    <div class="item-gallery">4</div>
+    <div class="item-gallery">5</div>
+  </div></fieldset>
 </div>
+<!-- END GALLERY -->
+
+
+
+
+<hr>
+
+
+
+
 
 
 
@@ -77,7 +87,7 @@
 
   <section>
     <article class="">
-      <img src="300x200" size="200x200"alt="sdsdsddsd">
+      <img src="300x200" size="200x200"alt="">
     </article>
   </section>
 
@@ -89,12 +99,44 @@
 
 </main>
 
+<div>
+<h2>Creazione siti web</h2>
+<p>
+Vuoi un preventivo sito web? Ci occupiamo della creazione di siti web che ottengono risultati in Joomla e Wordpress.
+</p>
+</div>
 
+<div>
+<fieldset>
+<legend><h2>Comentario</h2></legend>
+<p>
+HTML <pre> <!-- comment goes here --> </pre>
+CSS <pre>/* comment goes here */</pre>
+JS <pre>// comment goes here</pre>
+JS <pre>/* comment MULTI-LINE goes here */</pre>
+PHP <pre>-- comment goes here</pre>
+PHP <pre># comment goes here</pre>
+PHP <pre>/* comment MULTI-LINE goes here */</pre>
+SQL <pre>-- comment goes here</pre>
+SQL <pre>/* comment MULTI-LINE goes here */</pre>
+PYTHON <pre># comment goes here</pre>
+PYTHON <pre>”' comment MULTI-LINE goes here (docstring)'''</pre>
+RUBY <pre># comment goes here</pre>
+RUBY <pre>=begin 
+comment MULTI-LINE goes here
+=end</pre>
+BASIC <pre>' comment goes here</pre>
+</p>
+</fieldset>
+</div>
+
+<pre><!-- comment goes here --></pre>
+<blockquote><!-- comment goes here --></blockquote>
+<code><!-- comment goes here --></code>
 
   <footer>
   </footer>
 
 <script src="js/script.js" charset="utf-8"></script>
-
 </body>
 </html>

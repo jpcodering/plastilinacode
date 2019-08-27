@@ -7,13 +7,13 @@
 	<key>ESProjectWindowState</key>
 	<dict>
 		<key>ContentSize</key>
-		<string>{744, 925}</string>
+		<string>{1627, 951}</string>
 		<key>ProjectURL</key>
 		<string>file://localhost/Volumes/JPAB-WD/Tipografia/WebDAV/DAV%20-%20GoogleDrive%20-%20plasticode/GitHub-REPO/PlastilinaCode/docs/PlastilinaCode.esproj/</string>
 		<key>StateType</key>
 		<string>ProjectWindow</string>
 		<key>TopLeftPoint</key>
-		<string>{0, 1002}</string>
+		<string>{0, 1028}</string>
 	</dict>
 	<key>com.macrabbit.Espresso.FileManager.DisclosureCollapsed</key>
 	<false/>
@@ -23,8 +23,12 @@
 		<array>
 			<string>file://localhost/Volumes/JPAB-WD/Tipografia/WebDAV/DAV%20-%20GoogleDrive%20-%20plasticode/GitHub-REPO/PlastilinaCode/docs/css</string>
 			<string>file://localhost/Volumes/JPAB-WD/Tipografia/WebDAV/DAV%20-%20GoogleDrive%20-%20plasticode/GitHub-REPO/PlastilinaCode/docs/feed</string>
-			<string>file://localhost/Volumes/JPAB-WD/Tipografia/WebDAV/DAV%20-%20GoogleDrive%20-%20plasticode/GitHub-REPO/PlastilinaCode/docs/img</string>
+			<string>file://localhost/Volumes/JPAB-WD/Tipografia/WebDAV/DAV%20-%20GoogleDrive%20-%20plasticode/GitHub-REPO/PlastilinaCode/docs/img/favicon</string>
 			<string>file://localhost/Volumes/JPAB-WD/Tipografia/WebDAV/DAV%20-%20GoogleDrive%20-%20plasticode/GitHub-REPO/PlastilinaCode/docs/js</string>
+			<string>file://localhost/Volumes/JPAB-WD/Tipografia/WebDAV/DAV%20-%20GoogleDrive%20-%20plasticode/GitHub-REPO/PlastilinaCode/docs/learn/css</string>
+			<string>file://localhost/Volumes/JPAB-WD/Tipografia/WebDAV/DAV%20-%20GoogleDrive%20-%20plasticode/GitHub-REPO/PlastilinaCode/docs/learn/html</string>
+			<string>file://localhost/Volumes/JPAB-WD/Tipografia/WebDAV/DAV%20-%20GoogleDrive%20-%20plasticode/GitHub-REPO/PlastilinaCode/docs/learn/javascript</string>
+			<string>file://localhost/Volumes/JPAB-WD/Tipografia/WebDAV/DAV%20-%20GoogleDrive%20-%20plasticode/GitHub-REPO/PlastilinaCode/docs/learn/tips</string>
 		</array>
 	</dict>
 	<key>com.macrabbit.Espresso.Publisher.DisclosureCollapsed</key>
@@ -34,16 +38,8 @@
 		<key>Tabs</key>
 		<array>
 			<dict>
-				<key>StateType</key>
-				<string>PreviewTab</string>
-				<key>Title</key>
-				<string>PlastilinaCode</string>
-				<key>URL</key>
-				<string>file:///Volumes/JPAB-WD/Tipografia/WebDAV/DAV%20-%20GoogleDrive%20-%20plasticode/GitHub-REPO/PlastilinaCode/docs/index.html</string>
-			</dict>
-			<dict>
 				<key>DocumentURL</key>
-				<string>file://localhost/Volumes/JPAB-WD/Tipografia/WebDAV/DAV%20-%20GoogleDrive%20-%20plasticode/GitHub-REPO/PlastilinaCode/docs/index.html</string>
+				<string>file://localhost/Volumes/JPAB-WD/Tipografia/WebDAV/DAV%20-%20GoogleDrive%20-%20plasticode/GitHub-REPO/PlastilinaCode/docs/css/stylesheet.css</string>
 				<key>StateType</key>
 				<string>DefaultTab</string>
 			</dict>

@@ -4,6 +4,7 @@
   --color1: #73dce5;
   --color1hover: #f2f2f2;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -11,10 +12,19 @@
   font-family: helvetica;
   bord5er: 1px solid;
 }
-html,body {
+
+html,
+body {
   width: 100%;
   height: 100%;
 }
+
+.wrap-max-with{
+  margin: 20px auto;
+  width: 90%;
+  max-width: 1200px;
+}
+
 
 /* HEADER-DEV */
 .header-dev {
@@ -22,6 +32,7 @@ html,body {
   color: #fff;
   text-decoration: none;
 }
+
 /* END HEADER-DEV */
 
 
@@ -33,15 +44,17 @@ header {
   top: 0;
   width: 100%;
   height: 130px;
-  background: #73dce5;
+  background: var(--color1);
   box-shadow: 0 0 10px #000;
   z-index: 2000;
 }
+
 .menu {
   display: table;
   width: 90%;
   margin: 0 auto;
 }
+
 .menu-item {
   display: table-cell;
   text-align: center;
@@ -53,6 +66,7 @@ header {
   height: 70px;
   width: 70px;
 }
+
 .type-logo {
   width: 140px;
   height: 70px;
@@ -68,8 +82,9 @@ header {
   padding: 16px;
   color: #fff;
   text-decoration: none;
-  border-radius:10px;
+  border-radius: 10px;
 }
+
 .menu a:hover {
   background: #f2f2f2;
   color: #73dce5;
@@ -79,6 +94,7 @@ header {
   background: #fff;
   color: #73dce5;
 }
+
 .menu .active:after {
   content: "";
   position: relative;
@@ -87,6 +103,7 @@ header {
   height: 2px;
   top: 16px;
 }
+
 /* END HEADER / MENU */
 
 /* SLIDER */
@@ -96,11 +113,9 @@ header {
   height: 400px;
   background: #f2f2f2;
 }
+
 /* END SLIDER */
 
-.hjhjh{
-  display: ;
-}
 /* GALLERY */
 .gallery {
   display: block;
@@ -109,18 +124,20 @@ header {
   padding: 20px;
 }
 
-.gallery fieldset{
+.gallery fieldset {
   border: 2px solid #ddd;
   border-radius: 10px;
 }
 
-.gallery legend{
+.gallery legend {
   margin: auto;
   padding: 0 20px;
 }
-.gallery-wrapper{
+
+.gallery-wrapper {
   padding: 20px;
 }
+
 .item-gallery {
   display: inline-block;
   background-size: cover;
@@ -134,15 +151,17 @@ header {
   vertical-align: middle;
   border: 1px solid #ddd;
 }
-.item-gallery:hover{
+
+.item-gallery:hover {
   cursor: pointer;
   opacity: 0.5;
 }
+
 /* END GALLERY */
 
-footer{
-  position:static;
-  display:block;
+footer {
+  position: static;
+  display: block;
   bottom: 0;
   width: 100%;
   height: 200px;

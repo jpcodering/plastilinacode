@@ -2,7 +2,9 @@
 
 [WIKI](https://it.wikipedia.org/wiki/Utility_Disco)
 
-Utility Disco è un'utility sviluppata dalla Apple Inc. per il sistema operativo macOS. Essa serve per eseguire operazioni sui dischi rigidi e, più in generale, sulle unità di immagazzinamento dati del sistema operativo
+Utility Disco è un'utility sviluppata dalla Apple Inc. per il sistema operativo macOS. 
+Essa serve per eseguire operazioni sui dischi rigidi e, più in generale, sulle unità di 
+immagazzinamento dati del sistema operativo
 
 ---
 
@@ -48,6 +50,7 @@ Utility Disco offre un’interfaccia grafica semplice ed intuitiva. Basta scegli
 
 diskutil verifyVolume [nome dell’unità]
 ddiskutil verifyVolume /
+
 se desiderate effettuare un controllo sul disco rigido
 diskutil verifyvolume / Volumes / [nome dell’unità] /
 se desiderate effettuare un controllo su un disco rigido esterno collegato al Mac

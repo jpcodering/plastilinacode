@@ -1,4 +1,6 @@
+*.code-workspace
 dev/
+*dev
 .DS_Store
 .git
 .hg
